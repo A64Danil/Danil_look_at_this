@@ -1,0 +1,45 @@
+// @import "~normalize.css";
+@import "bootstrap.scss";
+@import "_vars.scss";
+@import "_mixins.scss";
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+.test {
+  color: $title-color;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+ul {
+  font-size: 1.6rem;
+}
+
+.box {
+  display: flex;
+  @include reset;
+  background-color: $ligth-color;
+}
